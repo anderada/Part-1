@@ -7,8 +7,10 @@ public class Dropper : MonoBehaviour
     public float speed = 50f;
     public Rigidbody2D rigidbody;
     public Transform spawnpoint;
+    public GameObject cherry;
     public GameObject strawberry;
     public GameObject grape;
+    public GameObject dekopon;
     public GameObject orange;
     public GameController controller;
     GameObject heldFruit;
@@ -42,7 +44,7 @@ public class Dropper : MonoBehaviour
     void FixedUpdate(){
         if(spawnCooldown == 0){
             //instantiate new fruit
-            heldFruit = Instantiate(strawberry, spawnpoint);
+            heldFruit = Instantiate(cherry, new Vector3(spawnpoint.transform.position.x, spawnpoint.transform.position.y, 0), Quaternion.identity);
             controller.AddFruit(heldFruit);
             //set fruit gravity to 0 to keep held
             heldFruit.GetComponent<Rigidbody2D>().gravityScale = 0;
