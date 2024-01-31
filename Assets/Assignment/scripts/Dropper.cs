@@ -10,8 +10,10 @@ public class Dropper : MonoBehaviour
     public GameObject strawberry;
     public GameObject grape;
     public GameObject orange;
+    public GameController controller;
     GameObject heldFruit;
     int spawnCooldown = 0;
+
 
     // Update is called once per frame
     void Update()
@@ -41,10 +43,15 @@ public class Dropper : MonoBehaviour
         if(spawnCooldown == 0){
             //instantiate new fruit
             heldFruit = Instantiate(strawberry, spawnpoint);
+            controller.AddFruit(heldFruit);
             //set fruit gravity to 0 to keep held
             heldFruit.GetComponent<Rigidbody2D>().gravityScale = 0;
         }
         spawnCooldown--;
+    }
+
+    public void ResetCooldown(){
+        spawnCooldown = 0;
     }
 
     
