@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7266050109363732271}
   - component: {fileID: 663278556862602330}
   - component: {fileID: 431847478155695145}
-  - component: {fileID: 7386522653792873649}
+  - component: {fileID: 5167831516634516877}
   m_Layer: 11
   m_Name: Pear
   m_TagString: Untagged
@@ -149,16 +149,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &7386522653792873649
+--- !u!114 &5167831516634516877
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1692605609896498077}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 197e0ff3bef11e875a0a83745622a9a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 7ba73abab52c1f14f9ff326d42f8325f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   size: 6

@@ -347,7 +347,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.005135536, y: -4.958445}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -358,7 +358,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.244016, y: 10.91689}
   m_EdgeRadius: 0
 --- !u!50 &237615637
 Rigidbody2D:
@@ -684,8 +684,8 @@ Transform:
   m_GameObject: {fileID: 830892980}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4, y: -0.1, z: 0}
-  m_LocalScale: {x: 0.2, y: 8, z: 1}
+  m_LocalPosition: {x: 4, y: -0.6, z: 0}
+  m_LocalScale: {x: 0.2, y: 7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1629736641}
@@ -722,7 +722,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 12.815657, y: 0.17802477}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -733,7 +733,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 26.631313, y: 1.3560494}
   m_EdgeRadius: 0
 --- !u!50 &830892983
 Rigidbody2D:
@@ -842,8 +842,8 @@ Transform:
   m_GameObject: {fileID: 1127717150}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: -0.1, z: 0}
-  m_LocalScale: {x: 0.2, y: 8, z: 1}
+  m_LocalPosition: {x: -4, y: -0.6, z: 0}
+  m_LocalScale: {x: 0.2, y: 7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1629736641}
@@ -880,7 +880,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -12.639682, y: 0.17903554}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -891,7 +891,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 26.279364, y: 1.358071}
   m_EdgeRadius: 0
 --- !u!50 &1127717153
 Rigidbody2D:
@@ -1009,9 +1009,9 @@ MonoBehaviour:
   spawnpoint: {fileID: 1733254749}
   cherry: {fileID: 3024168469536371864, guid: 2623a432f347ed0e8b1c9229b8ce165e, type: 3}
   strawberry: {fileID: 842598426831475252, guid: 17837749dc91c129ca3e844b75341099, type: 3}
-  grape: {fileID: 0}
-  dekopon: {fileID: 0}
-  orange: {fileID: 0}
+  grape: {fileID: 2171998891169755781, guid: df0b1734f3d8a75829dc53cdfbd96120, type: 3}
+  dekopon: {fileID: 8379582948042626543, guid: 57fdf862a01007418be0729dce4dc3a3, type: 3}
+  orange: {fileID: 3777380750648364763, guid: 83053b4504ae17f95a587e1c87e087bb, type: 3}
   controller: {fileID: 556006831}
 --- !u!61 &1141370956
 BoxCollider2D:
